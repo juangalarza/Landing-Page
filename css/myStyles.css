@@ -58,6 +58,10 @@
         height: 100%;
         padding: 0 10px; /* Edit #01 */
       }
+    .s-title {
+        font-size: 36px;
+        padding: 0 10px;
+    }
       nav .brand-logo {
         display: flex;
         position:absolute;
