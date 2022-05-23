@@ -1,0 +1,160 @@
+* {
+    scroll-behavior: smooth;
+}
+.fja-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fja-start {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.pl-100 {
+    padding-left: 100px;
+}
+.amber {
+    background-color: #ffc107 !important;
+    color:black;
+  }
+.white {
+    color: #fff !important;
+}
+.m-10 {
+    margin: 10px 0;
+}
+.m-50 {
+    margin: 50px 0;
+}
+.mdl-section__row {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+.vh-90 {
+    height: 90vh;
+}
+.w-60 {
+    width:60%;
+}
+.w-100 {
+    width: 100%;
+}
+.f-col {
+    flex-direction: column;
+}
+.demo-card-square.mdl-card {
+    width: 320px;
+    height: 320px;
+}
+/* CSS Propio de Materialize */
+@media (max-width: 600px){
+    nav .nav-wrapper {
+        display: flex;
+        align-items: center;
+        position: relative;
+        height: 100%;
+        padding: 0 10px; /* Edit #01 */
+      }
+      nav .brand-logo {
+        display: flex;
+        position:absolute;
+        color: #fff;
+        font-size: 2.1rem;
+        padding: 0;
+      }
+    nav .sidenav-trigger {
+        float: left;
+        position: relative;
+        z-index: 1;
+        height: 56px;
+        margin: 0 5px;
+      }
+    .w-60 {
+        width:90vw;
+        display: flex;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        background-color: white;
+        height: 90vh;
+    }
+    .f-column-s {
+        flex-direction: column !important;
+    }
+    .order-1 {
+        order: 1 !important;
+    }
+    .order-2 {
+        order: 2 !important
+    }
+    .map {
+        width: 100vw !important;
+        height: 50vh;
+    }
+    
+}
+
+.sidenav-brand {
+    display: flex;
+    align-content: center;
+    padding: 20px 30px;
+}
+.hero {
+    background-image: url('../img/nike-logo.png');
+    background-size: cover;
+    background-position: center;
+    height: 92vh;
+}
+.d-flex {
+    display: flex !important;
+    width: 100%;
+    height: 100%;
+}
+.f-column {
+    flex-direction: column !important;
+}
+.f-row-lg {
+    flex-direction: row;
+}
+.f-ai-center {
+    align-items: center;
+}
+.title-hero {
+    margin: 10px 0;
+    font-size: 48px;
+    font-weight: 900;
+}
+.parraf-hero {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.btn-hero {
+    font-weight: 600;
+}
+.myCards {
+    margin: 10px;
+}
+.vh-100 {
+    height: 100vh;
+}
+.card-title {
+    color: rgb(86, 86, 86) !important;
+    font-weight: 600 !important;
+}
+.mp-0{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.map {
+    width: 50vw;
+    height: 50vh;
+}
+.p-2550 {
+    padding: 25px 50px;
+}
